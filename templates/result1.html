@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <h2>
+        Final Results
+    </h2>
+    <body>
+        {% if result >=50 %}
+        {# This is the comment #}
+        <h1> You have passed with score = {{ result }}</h1>
+        {% else %}
+        <h1> You have failed with score = {{ result }}</h1>
+        {% endif %}
+    </body>
+</html>
